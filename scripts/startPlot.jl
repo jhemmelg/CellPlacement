@@ -13,4 +13,4 @@ length = 300
 
 plot(df[!,"lp"][1][1:length], lc=:blue, legend=:topleft, label="Old Step Distance", title="Startup Comparison")
 plot!(df[!,"sp"][1][1:length], lc=:green, label="New Step Distance")
-png(plotdir("CarrStartup.png"))
+png(plotsdir("CarrStartup.png"))

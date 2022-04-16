@@ -18,9 +18,9 @@ function plotVar(img; fname="george.png", figTitle="Example")
 end
 
 img1 = df[!,"img1"][1]
-plotVar(img1, fname=plotdir("Example1.png"), figTitle="Example 1")
+plotVar(img1, fname=plotsdir("Example1.png"), figTitle="Example 1")
 println("img1 max: ", maximum(img1), ", min: ", minimum(img1))
 
 img2 = df[!, "img2"][1]
-plotVar(img2, fname=plotdir("Example2.png"), figTitle="Example 2")
+plotVar(img2, fname=plotsdir("Example2.png"), figTitle="Example 2")
 println("img2 max: ", maximum(img2), ", min: ", minimum(img2))
